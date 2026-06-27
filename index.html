@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms & Conditions — Y Thérapies Manuelles</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 16px;
+      line-height: 1.75;
+      color: #1a1a1a;
+      background: #fafaf8;
+      padding: 2rem 1rem;
+    }
+    .page {
+      max-width: 720px;
+      margin: 0 auto;
+      background: #ffffff;
+      border: 1px solid #e5e3de;
+      border-radius: 8px;
+      padding: 3rem 3.5rem;
+    }
+    .lang-switcher {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 2.5rem;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+    .lang-btn {
+      padding: 5px 14px;
+      font-size: 13px;
+      font-weight: 500;
+      border: 1px solid #d0cec9;
+      border-radius: 20px;
+      background: transparent;
+      color: #666;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .lang-btn:hover { border-color: #888; color: #333; }
+    .lang-btn.active { background: #1a1a1a; border-color: #1a1a1a; color: #fff; }
+    .lang-section { display: none; }
+    .lang-section.active { display: block; }
+    .brand {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #888;
+      margin-bottom: 2.5rem;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1.2;
+      color: #111;
+      margin-bottom: 0.5rem;
+    }
+    .meta {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 13px;
+      color: #888;
+      margin-bottom: 2.5rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid #e5e3de;
+    }
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #111;
+      margin-top: 2.5rem;
+      margin-bottom: 0.6rem;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+    h3 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #333;
+      margin-top: 1.2rem;
+      margin-bottom: 0.4rem;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+    p { color: #333; margin-bottom: 0.9rem; }
+    ul { margin: 0.4rem 0 0.9rem 1.4rem; color: #333; }
+    ul li { margin-bottom: 0.3rem; }
+    .highlight {
+      background: #f5f4f0;
+      border-left: 3px solid #c0bdb5;
+      padding: 1rem 1.25rem;
+      border-radius: 0 6px 6px 0;
+      margin: 1.5rem 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 14px;
+      color: #555;
+    }
+    .highlight strong {
+      display: block;
+      color: #222;
+      margin-bottom: 0.25rem;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .warning {
+      background: #fef9ec;
+      border-left: 3px solid #e6b800;
+      padding: 1rem 1.25rem;
+      border-radius: 0 6px 6px 0;
+      margin: 1.2rem 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 14px;
+      color: #555;
+    }
+    .warning strong {
+      display: block;
+      color: #7a5f00;
+      margin-bottom: 0.4rem;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    a { color: #2563eb; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #e5e3de;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 12px;
+      color: #aaa;
+      text-align: center;
+    }
+    @media (max-width: 600px) {
+      .page { padding: 2rem 1.25rem; }
+      h1 { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <div class="lang-switcher">
+    <button class="lang-btn active" onclick="setLang('fr', this)">FR</button>
+    <button class="lang-btn" onclick="setLang('en', this)">EN</button>
+    <button class="lang-btn" onclick="setLang('de', this)">DE</button>
+  </div>
+
+  <!-- ═══════════════════════════════════════ FRENCH ═══ -->
+  <div id="lang-fr" class="lang-section active">
+    <p class="brand">Y Thérapies Manuelles</p>
+    <h1>Conditions générales de prestation</h1>
+    <p class="meta">Dernière mise à jour : 27 juin 2026 &nbsp;·&nbsp; Version 1.0</p>
+
+    <h2>§ 1. Cadre des prestations et remboursement par les assurances</h2>
+    <p>Les prestations proposées relèvent des thérapies complémentaires et du bien-être. Elles ne constituent pas un acte médical au sens de la législation suisse et ne remplacent en aucun cas un diagnostic, un traitement ou un suivi médical.</p>
+    <p>Les soins sont dispensés sur la base d'une formation approfondie suivie auprès d'établissements de formation certifiés ASCA en Suisse. Les diplômes et certificats peuvent être consultés sur demande.</p>
+    <p>Dès l'obtention de la reconnaissance ASCA (prévue en 2027), certaines prestations pourront, selon les cas, être remboursées par les assurances complémentaires. Il appartient toutefois au/à la client(e) de vérifier préalablement auprès de son assurance les conditions de prise en charge applicables à sa situation, chaque assureur disposant de ses propres critères, modalités et limitations de remboursement.</p>
+
+    <h2>§ 2. Informations de santé et responsabilité du/de la client(e)</h2>
+    <p>Le/la client(e) s'engage à communiquer de manière complète et sincère toute information relative à son état de santé pouvant être pertinente pour la réalisation du soin. Le praticien se réserve le droit d'adapter, reporter ou refuser une prestation si celle-ci apparaît inappropriée au regard de l'état de santé communiqué.</p>
+
+    <h2>§ 3. Contre-indications</h2>
+    <p>Votre sécurité et votre bien-être sont une priorité. Il appartient à chaque client(e) de prendre connaissance des contre-indications ci-dessous avant toute réservation.</p>
+
+    <h3>Massages</h3>
+    <p>Sans avis médical préalable, les massages sont déconseillés en cas de :</p>
+    <ul>
+      <li>fièvre ou infection aiguë ;</li>
+      <li>infection cutanée, plaie ouverte ou maladie contagieuse ;</li>
+      <li>phlébite ou thrombose ;</li>
+      <li>fracture récente ou intervention chirurgicale non cicatrisée ;</li>
+      <li>cancer actif.</li>
+    </ul>
+    <p>En cas de grossesse, certaines techniques peuvent être adaptées ou évitées selon le trimestre. Merci de le signaler lors de la prise de rendez-vous.</p>
+
+    <h3>Drainage lymphatique</h3>
+    <p>Sans autorisation médicale, le drainage lymphatique est contre-indiqué notamment en cas de :</p>
+    <ul>
+      <li>insuffisance cardiaque ou rénale non contrôlée ;</li>
+      <li>thrombose veineuse profonde ;</li>
+      <li>infection aiguë accompagnée de fièvre ;</li>
+      <li>hyperthyroïdie non stabilisée ;</li>
+      <li>tumeur suspecte ou cancer actif.</li>
+    </ul>
+
+    <h3>Ventouses</h3>
+    <p>Merci de signaler toute situation particulière, notamment :</p>
+    <ul>
+      <li>grossesse ;</li>
+      <li>opération récente ;</li>
+      <li>traitement médical en cours ;</li>
+      <li>diabète ;</li>
+      <li>troubles de la coagulation ;</li>
+      <li>implant ou prothèse ;</li>
+      <li>antécédents de cancer ;</li>
+      <li>allergies cutanées ;</li>
+      <li>pathologie thyroïdienne.</li>
+    </ul>
+    <div class="warning">
+      <strong>Important</strong>
+      Le praticien pourra adapter ou renoncer à certaines techniques lorsque cela est nécessaire. En cas de doute concernant votre état de santé, veuillez consulter votre médecin avant la séance et nous contacter avant de réserver.
+    </div>
+
+    <h2>§ 4. Protection des données</h2>
+    <p>Les informations personnelles collectées lors de la prise de rendez-vous sont traitées de manière confidentielle et conformément à la législation suisse applicable en matière de protection des données (nLPD).</p>
+    <p>Les données de santé éventuellement recueillies sont considérées comme des données sensibles et bénéficient d'une protection renforcée. Elles sont utilisées exclusivement dans le cadre de la gestion des rendez-vous, du suivi des soins et de la communication avec le/la client(e).</p>
+    <p>Ces données ne sont transmises à aucun tiers sans consentement préalable, sauf obligation légale ou nécessité technique liée à l'utilisation d'un prestataire de réservation ou d'hébergement informatique.</p>
+    <p>En validant une réservation, le/la client(e) consent au traitement de ses données dans ce cadre.</p>
+    <p>La politique de confidentialité complète est disponible à l'adresse suivante : <a href="privacy/index.html">Politique de confidentialité →</a></p>
+
+    <h2>§ 5. Responsabilité</h2>
+    <p>Les soins sont dispensés avec toute la diligence professionnelle requise et dans le respect des protocoles enseignés. Le praticien ne pose aucun diagnostic médical et ne prescrit aucun traitement médical.</p>
+    <p>La responsabilité du praticien ne saurait être engagée en cas de dommages résultant d'informations inexactes ou incomplètes fournies par le/la client(e), ni pour des effets indésirables ne résultant pas d'une faute intentionnelle ou d'une négligence grave.</p>
+
+    <h2>§ 6. Respect du cadre thérapeutique</h2>
+    <p>Y Thérapies Manuelles s'engage à fournir ses prestations dans un cadre respectueux, professionnel et strictement thérapeutique.</p>
+    <div class="warning">
+      <strong>Politique de tolérance zéro</strong>
+      Tout comportement inapproprié, agressif, discriminatoire, déplacé ou à caractère sexuel entraînera l'arrêt immédiat de la séance, sans remboursement, ainsi que l'exclusion définitive du cabinet.
+    </div>
+
+    <h2>§ 7. Rendez-vous, retards et annulations</h2>
+    <p>Toute annulation ou modification de rendez-vous effectuée moins de 24 heures avant l'heure prévue pourra être facturée à 100 % du montant de la prestation réservée.</p>
+    <p>En cas de retard du/de la client(e), la durée du soin pourra être réduite afin de ne pas pénaliser les rendez-vous suivants, sans réduction du tarif.</p>
+
+    <h2>§ 8. Paiement</h2>
+    <p>Les prestations sont payables à la fin de la séance selon les moyens de paiement acceptés par le cabinet.</p>
+
+    <h2>§ 9. Droit applicable et for juridique</h2>
+    <p>Les présentes conditions générales sont soumises au droit suisse. En cas de litige, le for juridique est celui du siège de Y Thérapies Manuelles, sous réserve des dispositions impératives du droit suisse.</p>
+
+    <div class="highlight">
+      <strong>Acceptation</strong>
+      En réservant une prestation, le/la client(e) reconnaît avoir pris connaissance des présentes conditions générales et les accepter sans réserve.
+    </div>
+
+    <footer>&copy; 2026 Y Thérapies Manuelles &nbsp;·&nbsp; Conditions générales &nbsp;·&nbsp; Suisse</footer>
+  </div>
+
+  <!-- ═══════════════════════════════════════ ENGLISH ═══ -->
+  <div id="lang-en" class="lang-section">
+    <p class="brand">Y Thérapies Manuelles</p>
+    <h1>General Terms and Conditions</h1>
+    <p class="meta">Last updated: 27 June 2026 &nbsp;·&nbsp; Version 1.0</p>
+
+    <h2>§ 1. Scope of services and insurance reimbursement</h2>
+    <p>The services offered fall within the field of complementary therapies and wellbeing. They do not constitute a medical act within the meaning of Swiss law and in no way replace a medical diagnosis, treatment, or follow-up.</p>
+    <p>Treatments are provided on the basis of in-depth training completed at ASCA-certified institutions in Switzerland. Diplomas and certificates are available on request.</p>
+    <p>Once ASCA recognition is obtained (expected in 2027), certain services may, depending on the case, be reimbursed by supplementary health insurers. It is however the client's responsibility to verify in advance with their insurer the applicable reimbursement conditions, as each insurer has its own criteria, procedures, and limitations.</p>
+
+    <h2>§ 2. Health information and client responsibility</h2>
+    <p>The client undertakes to fully and honestly disclose any health information that may be relevant to the treatment. The practitioner reserves the right to adapt, postpone, or refuse a service if it appears inappropriate given the health information provided.</p>
+
+    <h2>§ 3. Contraindications</h2>
+    <p>Your safety and wellbeing are a priority. Each client is responsible for reviewing the contraindications below before booking.</p>
+
+    <h3>Massage</h3>
+    <p>Without prior medical advice, massage is not recommended in cases of:</p>
+    <ul>
+      <li>fever or acute infection;</li>
+      <li>skin infection, open wound, or contagious illness;</li>
+      <li>phlebitis or thrombosis;</li>
+      <li>recent fracture or unhealed surgical wound;</li>
+      <li>active cancer.</li>
+    </ul>
+    <p>During pregnancy, certain techniques may be adapted or avoided depending on the trimester. Please mention this when booking.</p>
+
+    <h3>Lymphatic drainage</h3>
+    <p>Without medical authorisation, lymphatic drainage is contraindicated in cases including:</p>
+    <ul>
+      <li>uncontrolled cardiac or renal insufficiency;</li>
+      <li>deep vein thrombosis;</li>
+      <li>acute infection with fever;</li>
+      <li>unstabilised hyperthyroidism;</li>
+      <li>suspected tumour or active cancer.</li>
+    </ul>
+
+    <h3>Cupping</h3>
+    <p>Please disclose any of the following situations:</p>
+    <ul>
+      <li>pregnancy;</li>
+      <li>recent surgery;</li>
+      <li>ongoing medical treatment;</li>
+      <li>diabetes;</li>
+      <li>coagulation disorders;</li>
+      <li>implant or prosthesis;</li>
+      <li>history of cancer;</li>
+      <li>skin allergies;</li>
+      <li>thyroid condition.</li>
+    </ul>
+    <div class="warning">
+      <strong>Important</strong>
+      The practitioner may adapt or forgo certain techniques when necessary. If you have any doubts about your health, please consult your doctor before the session and contact us before booking.
+    </div>
+
+    <h2>§ 4. Data protection</h2>
+    <p>Personal information collected during booking is treated confidentially and in accordance with applicable Swiss data protection law (revDPA).</p>
+    <p>Any health data collected is considered sensitive data and benefits from enhanced protection. It is used exclusively for appointment management, care follow-up, and communication with the client.</p>
+    <p>This data is not shared with any third party without prior consent, except where required by law or technically necessary due to the use of a booking or hosting provider.</p>
+    <p>By confirming a booking, the client consents to the processing of their data in this context.</p>
+    <p>The full privacy policy is available here: <a href="privacy/index.html">Privacy Policy →</a></p>
+
+    <h2>§ 5. Liability</h2>
+    <p>Treatments are provided with all required professional diligence and in accordance with the protocols taught. The practitioner does not make medical diagnoses or prescribe medical treatments.</p>
+    <p>The practitioner cannot be held liable for damages resulting from inaccurate or incomplete information provided by the client, nor for adverse effects not resulting from intentional misconduct or gross negligence.</p>
+
+    <h2>§ 6. Therapeutic framework</h2>
+    <p>Y Thérapies Manuelles is committed to providing services in a respectful, professional, and strictly therapeutic setting.</p>
+    <div class="warning">
+      <strong>Zero tolerance policy</strong>
+      Any inappropriate, aggressive, discriminatory, or sexual behaviour will result in the immediate termination of the session without refund, and permanent exclusion from the practice.
+    </div>
+
+    <h2>§ 7. Appointments, lateness, and cancellations</h2>
+    <p>Any cancellation or modification made less than 24 hours before the scheduled appointment may be charged at 100% of the booked service fee.</p>
+    <p>In the event of client lateness, the treatment duration may be reduced so as not to affect subsequent appointments, without any reduction in price.</p>
+
+    <h2>§ 8. Payment</h2>
+    <p>Services are payable at the end of the session using the payment methods accepted by the practice.</p>
+
+    <h2>§ 9. Applicable law and jurisdiction</h2>
+    <p>These general terms and conditions are governed by Swiss law. In the event of a dispute, jurisdiction lies with the courts at the registered address of Y Thérapies Manuelles, subject to mandatory provisions of Swiss law.</p>
+
+    <div class="highlight">
+      <strong>Acceptance</strong>
+      By booking a service, the client acknowledges having read these general terms and conditions and accepts them without reservation.
+    </div>
+
+    <footer>&copy; 2026 Y Thérapies Manuelles &nbsp;·&nbsp; Terms &amp; Conditions &nbsp;·&nbsp; Switzerland</footer>
+  </div>
+
+  <!-- ═══════════════════════════════════════ GERMAN ═══ -->
+  <div id="lang-de" class="lang-section">
+    <p class="brand">Y Thérapies Manuelles</p>
+    <h1>Allgemeine Geschäftsbedingungen</h1>
+    <p class="meta">Zuletzt aktualisiert: 27. Juni 2026 &nbsp;·&nbsp; Version 1.0</p>
+
+    <h2>§ 1. Leistungsrahmen und Kostenübernahme durch Versicherungen</h2>
+    <p>Die angebotenen Leistungen fallen in den Bereich der Komplementärtherapien und des Wohlbefindens. Sie stellen keine medizinische Handlung im Sinne des Schweizer Rechts dar und ersetzen in keiner Weise eine ärztliche Diagnose, Behandlung oder Nachsorge.</p>
+    <p>Die Behandlungen werden auf der Grundlage einer fundierten Ausbildung an ASCA-zertifizierten Institutionen in der Schweiz durchgeführt. Diplome und Zertifikate können auf Anfrage eingesehen werden.</p>
+    <p>Nach Erhalt der ASCA-Anerkennung (voraussichtlich 2027) können bestimmte Leistungen je nach Fall von Zusatzversicherungen erstattet werden. Es liegt jedoch in der Verantwortung der Klientin / des Klienten, die für ihre/seine Situation geltenden Erstattungsbedingungen vorab mit der eigenen Versicherung zu klären, da jeder Versicherer eigene Kriterien, Modalitäten und Einschränkungen hat.</p>
+
+    <h2>§ 2. Gesundheitsinformationen und Verantwortung der Klientin / des Klienten</h2>
+    <p>Die Klientin / der Klient verpflichtet sich, alle für die Behandlung relevanten Gesundheitsinformationen vollständig und wahrheitsgemäß mitzuteilen. Der Therapeut behält sich das Recht vor, eine Leistung anzupassen, zu verschieben oder abzulehnen, wenn sie angesichts der mitgeteilten Gesundheitsinformationen ungeeignet erscheint.</p>
+
+    <h2>§ 3. Kontraindikationen</h2>
+    <p>Ihre Sicherheit und Ihr Wohlbefinden haben Priorität. Jede Klientin / jeder Klient ist dafür verantwortlich, die nachstehenden Kontraindikationen vor einer Buchung zur Kenntnis zu nehmen.</p>
+
+    <h3>Massage</h3>
+    <p>Ohne vorherige ärztliche Abklärung ist Massage nicht empfohlen bei:</p>
+    <ul>
+      <li>Fieber oder akuter Infektion;</li>
+      <li>Hautinfektion, offener Wunde oder ansteckender Krankheit;</li>
+      <li>Phlebitis oder Thrombose;</li>
+      <li>frischer Fraktur oder nicht verheilter operativer Wunde;</li>
+      <li>aktiver Krebserkrankung.</li>
+    </ul>
+    <p>Bei Schwangerschaft können bestimmte Techniken je nach Trimester angepasst oder vermieden werden. Bitte weisen Sie bei der Terminbuchung darauf hin.</p>
+
+    <h3>Lymphdrainage</h3>
+    <p>Ohne ärztliche Genehmigung ist Lymphdrainage kontraindiziert, insbesondere bei:</p>
+    <ul>
+      <li>unkontrollierter Herzinsuffizienz oder Niereninsuffizienz;</li>
+      <li>tiefer Venenthrombose;</li>
+      <li>akuter Infektion mit Fieber;</li>
+      <li>nicht stabilisierter Hyperthyreose;</li>
+      <li>Tumorverdacht oder aktiver Krebserkrankung.</li>
+    </ul>
+
+    <h3>Schröpfen</h3>
+    <p>Bitte teilen Sie uns folgende Situationen mit:</p>
+    <ul>
+      <li>Schwangerschaft;</li>
+      <li>kürzliche Operation;</li>
+      <li>laufende medizinische Behandlung;</li>
+      <li>Diabetes;</li>
+      <li>Gerinnungsstörungen;</li>
+      <li>Implantat oder Prothese;</li>
+      <li>Krebserkrankung in der Vorgeschichte;</li>
+      <li>Hautallergien;</li>
+      <li>Schilddrüsenerkrankung.</li>
+    </ul>
+    <div class="warning">
+      <strong>Wichtig</strong>
+      Der Therapeut kann bestimmte Techniken bei Bedarf anpassen oder darauf verzichten. Bei Zweifeln bezüglich Ihres Gesundheitszustands konsultieren Sie bitte vor der Sitzung Ihren Arzt und kontaktieren uns vor der Buchung.
+    </div>
+
+    <h2>§ 4. Datenschutz</h2>
+    <p>Die bei der Terminbuchung erhobenen personenbezogenen Daten werden vertraulich und gemäß dem geltenden Schweizer Datenschutzrecht (revDSG) behandelt.</p>
+    <p>Allfällig erhobene Gesundheitsdaten gelten als besonders schützenswerte Personendaten und genießen einen erhöhten Schutz. Sie werden ausschließlich für die Terminverwaltung, die Behandlungsnachsorge und die Kommunikation mit der Klientin / dem Klienten verwendet.</p>
+    <p>Diese Daten werden ohne vorherige Einwilligung nicht an Dritte weitergegeben, außer bei gesetzlicher Verpflichtung oder technischer Notwendigkeit im Zusammenhang mit einem Buchungs- oder Hosting-Anbieter.</p>
+    <p>Mit der Bestätigung einer Buchung willigt die Klientin / der Klient in die Verarbeitung ihrer/seiner Daten in diesem Rahmen ein.</p>
+    <p>Die vollständige Datenschutzerklärung ist hier verfügbar: <a href="privacy/index.html">Datenschutzerklärung →</a></p>
+
+    <h2>§ 5. Haftung</h2>
+    <p>Die Behandlungen werden mit der erforderlichen beruflichen Sorgfalt und gemäß den erlernten Protokollen durchgeführt. Der Therapeut stellt keine medizinischen Diagnosen und verschreibt keine medizinischen Behandlungen.</p>
+    <p>Der Therapeut haftet nicht für Schäden, die auf ungenaue oder unvollständige Angaben der Klientin / des Klienten zurückzuführen sind, und auch nicht für unerwünschte Wirkungen, die nicht auf vorsätzliches Fehlverhalten oder grobe Fahrlässigkeit zurückzuführen sind.</p>
+
+    <h2>§ 6. Therapeutischer Rahmen</h2>
+    <p>Y Thérapies Manuelles verpflichtet sich, seine Leistungen in einem respektvollen, professionellen und strikt therapeutischen Rahmen zu erbringen.</p>
+    <div class="warning">
+      <strong>Null-Toleranz-Richtlinie</strong>
+      Jedes unangemessene, aggressive, diskriminierende oder sexuelle Verhalten führt zum sofortigen Abbruch der Sitzung ohne Rückerstattung sowie zum dauerhaften Ausschluss aus der Praxis.
+    </div>
+
+    <h2>§ 7. Termine, Verspätungen und Absagen</h2>
+    <p>Jede Absage oder Änderung eines Termins, die weniger als 24 Stunden vor dem vereinbarten Termin erfolgt, kann mit 100 % des gebuchten Leistungsbetrags in Rechnung gestellt werden.</p>
+    <p>Bei Verspätung der Klientin / des Klienten kann die Behandlungsdauer verkürzt werden, um nachfolgende Termine nicht zu beeinträchtigen, ohne Preisminderung.</p>
+
+    <h2>§ 8. Zahlung</h2>
+    <p>Die Leistungen sind am Ende der Sitzung mit den in der Praxis akzeptierten Zahlungsmitteln zu begleichen.</p>
+
+    <h2>§ 9. Anwendbares Recht und Gerichtsstand</h2>
+    <p>Diese Allgemeinen Geschäftsbedingungen unterliegen dem Schweizer Recht. Im Streitfall ist der Gerichtsstand am Sitz von Y Thérapies Manuelles, vorbehaltlich zwingender Bestimmungen des Schweizer Rechts.</p>
+
+    <div class="highlight">
+      <strong>Akzeptanz</strong>
+      Mit der Buchung einer Leistung bestätigt die Klientin / der Klient, diese Allgemeinen Geschäftsbedingungen gelesen zu haben und sie vorbehaltlos zu akzeptieren.
+    </div>
+
+    <footer>&copy; 2026 Y Thérapies Manuelles &nbsp;·&nbsp; AGB &nbsp;·&nbsp; Schweiz</footer>
+  </div>
+
+</div>
+<script>
+  function setLang(lang, btn) {
+    document.querySelectorAll('.lang-section').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.lang-btn').forEach(el => el.classList.remove('active'));
+    document.getElementById('lang-' + lang).classList.add('active');
+    btn.classList.add('active');
+  }
+</script>
+</body>
+</html>
